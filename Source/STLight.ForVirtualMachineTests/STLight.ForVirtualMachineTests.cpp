@@ -1,11 +1,11 @@
 #include "stdafx.h"
 
-#include "../STLight/Functions.hpp"
+#include "../STLight/wcsncpy_s.hpp"
 
 int main()
 {
 	//Тест 1
-
-	DivideEvenly(400, 4);	//100
+	wchar_t arr[30];
+	STLigth::wcsncpy_s(arr, 30, L"Hello", 5);
     return 0;
 }

@@ -25,7 +25,7 @@
     <ClCompile Include="STLight.Tests.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="FunctionsTests.cpp">
+    <ClCompile Include="wcsncpy_sTests.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
