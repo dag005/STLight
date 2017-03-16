@@ -1,6 +1,6 @@
 #include "stdafx.h"
 
-#include "../STLight/wcsncpy_s.hpp"
+#include "../STLight/corecrt_wstring.h"
 
 int main()
 {

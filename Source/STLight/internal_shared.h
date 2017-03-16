@@ -2,11 +2,11 @@
 
 #include <crtdbg.h>
 
-#ifdef _DEBUG
-#define _INVALID_PARAMETER(expr) _invalid_parameter(expr, __FUNCTIONW__, __FILEW__, __LINE__, 0)
-#else
+//#ifdef _DEBUG
+//#define _INVALID_PARAMETER(expr) _invalid_parameter(expr, __FUNCTIONW__, __FILEW__, __LINE__, 0)
+//#else
 #define _INVALID_PARAMETER(expr) _invalid_parameter_noinfo()
-#endif
+//#endif
 
 #define _VALIDATE_RETURN(expr, errorcode, retexpr)                             \
     {                                                                          \

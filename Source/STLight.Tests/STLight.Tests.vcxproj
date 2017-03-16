@@ -171,7 +171,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="STLight.Tests.cpp" />
-    <ClCompile Include="wcsncpy_sTests.cpp" />
+    <ClCompile Include="strcpy_s.Tests.cpp" />
+    <ClCompile Include="wcscat_s.Tests.cpp" />
+    <ClCompile Include="wcscpy_s.Tests.cpp" />
+    <ClCompile Include="wcsncpy_s.Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\STLight\STLight.vcxproj">

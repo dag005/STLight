@@ -35,5 +35,8 @@
 #define _RETURN_BUFFER_TOO_SMALL(_String, _Size) \
     _RETURN_BUFFER_TOO_SMALL_ERROR((_String), (_Size), ERANGE)
 
+#define _RETURN_DEST_NOT_NULL_TERMINATED(_String, _Size) \
+    _VALIDATE_RETURN((L"String is not null terminated" && 0), EINVAL, EINVAL)
+
 #define _RETURN_TRUNCATE \
     return STRUNCATE
