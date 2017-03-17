@@ -4,7 +4,7 @@
 #include "STLightAPI.hpp"
 #include <vcruntime_string.h>
 
-namespace STLigth {
+namespace STLight {
 	extern "C" STLIGHT_API errno_t __cdecl wcscat_s(
 			_Inout_updates_z_(_SizeInWords) wchar_t*		_Destination,
 			_In_							rsize_t			_SizeInWords,

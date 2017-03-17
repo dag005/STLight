@@ -15,13 +15,13 @@
 //#include <stdlib.h>
 #include "string.h"
 
-namespace STLigth {
-	extern "C" errno_t __cdecl strerror_s(
-		char*  const buffer,
-		size_t const buffer_count,
-		int    const error_number
-	)
-	{
-		return common_strerror_s(buffer, buffer_count, error_number);
-	}
-}
+//namespace STLight {
+//	extern "C" errno_t __cdecl strerror_s(
+//		char*  const buffer,
+//		size_t const buffer_count,
+//		int    const error_number
+//	)
+//	{
+//		return common_strerror_s(buffer, buffer_count, error_number);
+//	}
+//}

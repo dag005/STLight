@@ -11,7 +11,7 @@
 #include "corecrt_internal_string_templates.h"
 #include "string.h"
 
-namespace STLigth {
+namespace STLight {
 	extern "C" errno_t __cdecl wcscat_s(
 		wchar_t*       const destination,
 		size_t         const size_in_elements,
