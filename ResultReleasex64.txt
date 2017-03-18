@@ -227,7 +227,7 @@ MSVCR120.dll:
 	_fseeki64
 	_ftelli64
 	_initterm_e
-Коля	_itoa_s
+Кол _itoa_s
 	_localtime64_s
 	_lock_file
 	_malloc_crt
@@ -244,7 +244,7 @@ MSVCR120.dll:
 	_wfopen_s
 	fopen_s
 	getenv_s
-	memcpy_s
+Кол memcpy_s
 	sprintf_s
 	sscanf_s
 Изя	strcpy_s

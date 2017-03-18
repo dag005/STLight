@@ -161,9 +161,12 @@
     <ClInclude Include="corecrt_internal.h" />
     <ClInclude Include="corecrt_internal_securecrt.h" />
     <ClInclude Include="corecrt_internal_string_templates.h" />
+    <ClInclude Include="corecrt_memcpy_s.h" />
     <ClInclude Include="corecrt_wstring.h" />
+    <ClInclude Include="internal.h" />
     <ClInclude Include="internal_shared.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stdlib.h" />
     <ClInclude Include="STLightAPI.hpp" />
     <ClInclude Include="string.h" />
     <ClInclude Include="targetver.h" />
@@ -194,6 +197,7 @@
     <ClCompile Include="wcscat_s.cpp" />
     <ClCompile Include="wcscpy_s.cpp" />
     <ClCompile Include="wcsncpy_s.cpp" />
+    <ClCompile Include="_itoa_s.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

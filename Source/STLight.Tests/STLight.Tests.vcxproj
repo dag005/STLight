@@ -164,6 +164,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="memcpy_sTests.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -175,6 +176,7 @@
     <ClCompile Include="wcscat_s.Tests.cpp" />
     <ClCompile Include="wcscpy_s.Tests.cpp" />
     <ClCompile Include="wcsncpy_s.Tests.cpp" />
+    <ClCompile Include="_itoa_sTests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\STLight\STLight.vcxproj">
