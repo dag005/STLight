@@ -9,6 +9,8 @@ int main()
 {
 	//Тест 1
 	wchar_t arr[30];
+	STLight::wcscat_s(arr, 30, L"Hel");
+	STLight::wcscpy_s(arr, 30, L"Hello");
 	STLight::wcsncpy_s(arr, 30, L"Hello", 5);
 
 	// Тест функции _itoa_s для виртуальных машин.

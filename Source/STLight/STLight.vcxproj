@@ -103,7 +103,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>msvcrt\msvcrt(Ctr.i386).lib;msvcrt\msvcrt_win2003(win7.i386).obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Libs\msvcrt\msvcrt(Ctr.i386).lib;..\..\Libs\msvcrt\msvcrt_win2003(win7.i386).obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -118,7 +118,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>msvcrt\msvcrt(Ctr.amd64).lib;msvcrt\msvcrt_win2003(win7.amd64).obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Libs\msvcrt\msvcrt(Ctr.amd64).lib;..\..\Libs\msvcrt\msvcrt_win2003(win7.amd64).obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -136,7 +136,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>msvcrt\msvcrt(Ctr.i386).lib;msvcrt\msvcrt_win2003(win7.i386).obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Libs\msvcrt\msvcrt(Ctr.i386).lib;..\..\Libs\msvcrt\msvcrt_win2003(win7.i386).obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -154,7 +154,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>msvcrt\msvcrt(Ctr.amd64).lib;msvcrt\msvcrt_win2003(win7.amd64).obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Libs\msvcrt\msvcrt(Ctr.amd64).lib;..\..\Libs\msvcrt\msvcrt_win2003(win7.amd64).obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
