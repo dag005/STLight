@@ -21,6 +21,6 @@ TEST(wcscpy_sTests, smallBoofer)
 
 TEST(wcscpy_sTests, nullArr)
 {
-	auto error = STLight::wcscpy_s(NULL, 10, L"hello");
+	auto error = STLight::wcscpy_s(NULL, 10, L"hello"); 
 	ASSERT_EQ(error, EINVAL);
 }

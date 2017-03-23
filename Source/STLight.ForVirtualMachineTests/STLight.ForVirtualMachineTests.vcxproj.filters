@@ -34,5 +34,8 @@
     <ClCompile Include="memcpy_sForVMTests.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+    <ClCompile Include="strerror_sForVMTests.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

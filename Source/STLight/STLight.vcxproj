@@ -158,11 +158,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="corecrt.h" />
     <ClInclude Include="corecrt_internal.h" />
     <ClInclude Include="corecrt_internal_securecrt.h" />
     <ClInclude Include="corecrt_internal_string_templates.h" />
+    <ClInclude Include="corecrt_internal_traits.h" />
     <ClInclude Include="corecrt_memcpy_s.h" />
+    <ClInclude Include="corecrt_stdio_config.h" />
+    <ClInclude Include="corecrt_wstdio.h" />
     <ClInclude Include="corecrt_wstring.h" />
+    <ClInclude Include="crtdbg.h" />
     <ClInclude Include="internal.h" />
     <ClInclude Include="internal_shared.h" />
     <ClInclude Include="stdafx.h" />
@@ -194,10 +199,12 @@
     </ClCompile>
     <ClCompile Include="strcpy_s.cpp" />
     <ClCompile Include="strerror_s.cpp" />
+    <ClCompile Include="strncpy_s.cpp" />
+    <ClCompile Include="syserr.cpp" />
     <ClCompile Include="wcscat_s.cpp" />
     <ClCompile Include="wcscpy_s.cpp" />
     <ClCompile Include="wcsncpy_s.cpp" />
-    <ClCompile Include="_itoa_s.cpp" />
+    <ClCompile Include="xtoa.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

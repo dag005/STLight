@@ -1,6 +1,6 @@
 #pragma once
 
-#include <corecrt.h>
+#include "corecrt.h"
 #include "STLightAPI.hpp"
 #include <vcruntime_string.h>
 

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "corecrt_internal.h"
-#include "errno.h"
+//#include "errno.h"
 
 #define _FILL_STRING _SECURECRT__FILL_STRING
 

@@ -173,6 +173,7 @@
     </ClCompile>
     <ClCompile Include="STLight.Tests.cpp" />
     <ClCompile Include="strcpy_s.Tests.cpp" />
+    <ClCompile Include="strerror_s.Tests.cpp" />
     <ClCompile Include="wcscat_s.Tests.cpp" />
     <ClCompile Include="wcscpy_s.Tests.cpp" />
     <ClCompile Include="wcsncpy_s.Tests.cpp" />

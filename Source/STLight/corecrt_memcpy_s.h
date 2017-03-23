@@ -1,6 +1,6 @@
 #pragma once
 
-//#include <corecrt.h>
+#include "corecrt.h"
 //#include <errno.h>
 #include <vcruntime_string.h>
 

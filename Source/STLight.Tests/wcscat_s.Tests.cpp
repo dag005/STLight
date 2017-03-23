@@ -20,6 +20,6 @@ TEST(wcscat_sTests, smallBoofer)
 	wchar_t arr[5];
 	auto error = STLight::wcscat_s(arr, 5, L"Hello my friend");
 	ASSERT_STREQ(arr, L"");
-	ASSERT_EQ(error, EINVAL);
+	ASSERT_EQ(error, ERANGE);
 }
 

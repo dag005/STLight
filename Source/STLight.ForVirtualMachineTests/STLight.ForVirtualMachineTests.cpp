@@ -13,6 +13,7 @@ int main()
 	STLight::wcscpy_s(arr, 30, L"Hello");
 	STLight::wcsncpy_s(arr, 30, L"Hello", 5);
 
+	strerrorTest();
 	// Тест функции _itoa_s для виртуальных машин.
 	_itoa_sForVMTests();
 

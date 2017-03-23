@@ -6,8 +6,8 @@
 // Defines strcpy_s(), which copies a string from one buffer to another.
 //
 #include "stdafx.h"
-#include "corecrt_internal_string_templates.h"
 #include "string.h"
+#include "corecrt_internal_string_templates.h"
 
 
 namespace  STLight {
