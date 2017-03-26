@@ -87,5 +87,5 @@ _CRT_STDIO_INLINE int __CRTDECL swscanf(
 		return _Result;
 	}
 #endif
-}
+
 #endif
