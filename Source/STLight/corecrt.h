@@ -9,8 +9,6 @@
 
 #include <vcruntime.h>
 
-_CRT_BEGIN_C_HEADER
-
 //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 //
 // Annotation Macros
@@ -32,4 +30,4 @@ _CRT_BEGIN_C_HEADER
 #define _Check_return_opt_
 #endif
 
-_CRT_END_C_HEADER
+typedef int                           errno_t;

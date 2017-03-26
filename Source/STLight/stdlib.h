@@ -12,39 +12,6 @@
 // Global State (errno, global handlers, etc.)
 //
 //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-#ifndef _M_CEE_PURE
-// a purecall handler procedure. Never returns normally
-typedef void(__cdecl* _purecall_handler)(void);
-
-// Invalid parameter handler function pointer type
-typedef void(__cdecl* _invalid_parameter_handler)(
-	wchar_t const*,
-	wchar_t const*,
-	wchar_t const*,
-	unsigned int,
-	uintptr_t
-	);
-
-// Establishes a purecall handler
-_VCRTIMP _purecall_handler __cdecl _set_purecall_handler(
-	_In_opt_ _purecall_handler _Handler
-);
-
-_VCRTIMP _purecall_handler __cdecl _get_purecall_handler(void);
-
-// Establishes an invalid parameter handler
-_ACRTIMP _invalid_parameter_handler __cdecl _set_invalid_parameter_handler(
-	_In_opt_ _invalid_parameter_handler _Handler
-);
-
-_ACRTIMP _invalid_parameter_handler __cdecl _get_invalid_parameter_handler(void);
-
-_ACRTIMP _invalid_parameter_handler __cdecl _set_thread_local_invalid_parameter_handler(
-	_In_opt_ _invalid_parameter_handler _Handler
-);
-
-_ACRTIMP _invalid_parameter_handler __cdecl _get_thread_local_invalid_parameter_handler(void);
-#endif
 
 // This is non-const for backwards compatibility; do not modify it.
 extern "C" STLIGHT_API _CRT_INSECURE_DEPRECATE(strerror) char** __cdecl __sys_errlist(void);

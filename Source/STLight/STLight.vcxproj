@@ -164,8 +164,6 @@
     <ClInclude Include="corecrt_internal_string_templates.h" />
     <ClInclude Include="corecrt_internal_traits.h" />
     <ClInclude Include="corecrt_memcpy_s.h" />
-    <ClInclude Include="corecrt_stdio_config.h" />
-    <ClInclude Include="corecrt_wstdio.h" />
     <ClInclude Include="corecrt_wstring.h" />
     <ClInclude Include="crtdbg.h" />
     <ClInclude Include="internal.h" />
